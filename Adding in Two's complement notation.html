@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adding Two's complement notation</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  float: left;
+ padding-right: 40px; 
+ padding-left: 40px;
+ padding-bottom: 40px;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <h2>Adding Two's complement notation</h2>
+</header>
+<section>
+
+<img src="2’s complement table.jpg" 
+style="width:450px;height:370px;">
+<img src="2comp.png" 
+style="width:400px;height:200px;">
+
+<form>
+<p>Enter a number between -8 and 7: <input type="text" id="firstNumber" /><br></p>
+<p>Enter a number between -8 and 7: <input type="text" id="secondNumber" /><br></p>
+<input type="button" onclick="convert()" value="Convert"/>
+</form>
+
+<p>The 2s complement for 
+<strong id = "displayNumberOne"></strong>
+ is : 
+<span id = "Number1result"></span>
+
+<p>The 2s complement for
+<strong id= "displayNumberTwo"></strong>
+ is : 
+<span id = "Number2result"></span>
+
+<p>The 2s comp sum of the 2 numbers is:
+<span id = "resultAddition"></span>
+
+<p>The base ten sum of the 2 numbers is:
+<span id = "intAddition"></span>
+
+<script src="twosComp.js"></script>
+</p>
+</section>
+
+<a href="Index.html">Back to Home</a>
+
+</body>
+<footer>
+<p>@ Powered by Me</p>
+</footer>
+</html> 
