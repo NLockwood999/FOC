@@ -16,30 +16,44 @@ header {
   font="font-family:courier;
 }
 
+
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
   width: 15%;
-  
-  /*height: 300px;  only for demonstration, should be removed */
-  background: black;
-  padding: 20px;
+  width: 100%;
+  background: orangered;
+  font-weight: bold;
 }
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
+   float: right;
+  list-style: none;
+  margin-right: 96px;
   
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 30px;
+}
+
+nav ul li a{
+  color: blue;
+  text-decoration: none;
+  padding: 10px 49px;
+  border-radius: 10px;
 }
 
 /*Style the text inside the menu*/
 article {
-  float: left;
-  padding: 20px;
-  width: 70%;
+  float: center;
+  padding: 10px;
+  width: 100%;
   background-color: #40e0d0;
   
 }
@@ -49,12 +63,12 @@ section:after {
   content: "";
   display: table;
   clear: both;
-  background-color: #008b8b; 
+  
 }
 
 /* Style the footer */
 footer {
-  background-color: #483D8B;
+  background-color: #000066;
   padding: 10px;
   text-align: center;
   color: Gold;
