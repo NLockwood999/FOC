@@ -49,6 +49,7 @@ section:after {
   content: "";
   display: table;
   clear: both;
+  background-color: #008b8b; 
 }
 
 /* Style the footer */
